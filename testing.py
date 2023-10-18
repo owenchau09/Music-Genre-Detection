@@ -53,8 +53,8 @@ file, samplingRate = librosa.load(args.path)
 
 
 # Specify the duration in seconds
-duration = 10.0
-start_time = 5.0
+duration = 30.0
+start_time = 60.0
 
 # Calculate the number of samples corresponding to the specified duration
 num_samples = int(samplingRate * duration)
